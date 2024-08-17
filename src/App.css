@@ -636,3 +636,53 @@ margin-top: 5%;
               }
           }}
         
+/* Sticky Button */
+.sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.sticky-button button {
+    padding: 15px 20px;
+    background-color: #f13f3f;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Side Modal */
+.side-modal {
+    position: fixed;
+    top: 10%;
+    right: -100%;
+    width: 300px;
+    height: 90%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    transition: right 0.3s ease;
+    border-radius: 30px;
+}
+
+.modal-content {
+    padding: 20px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.close-button {
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Modal Open State */
+.side-modal.open {
+    right: 0;
+}

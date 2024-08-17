@@ -6,6 +6,7 @@ import Features from './components/Features';
 import Offer from './components/Offer';
 import About from './components/About';
 import Contact from './components/Contact';
+import AI from './components/AI';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Offer/>
     <About/>
     <Contact/>
+    <AI/>
     </>
   );
 }
